@@ -36,3 +36,33 @@ a:hover {
 mark {
 	background-color: #C7CDE6;
 }
+
+/* Mobile media query*/
+@media (max-width: 480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  body {
+    margin: 0;
+  }
+  .header .links {
+    padding: 0;
+  }
+  
+  #arena {
+    display: none;
+  }
+
+  
+  .mobile {
+    display: inline-block;
+  }
+  
+  .desktop {
+    display: none;
+  }
+  
+  #snuffbottles {
+  display: inline-block;
+  }
+
+  ul {
+  padding: 0 0 0 0rem;
+    
