@@ -1,0 +1,38 @@
+body {
+	background: #FFFFFF;
+	color-text-main: #373F47;
+	image-max-width: 320rem;
+	font-family: "Hershey";
+	font-family-header: "NotJam";
+	margin-right: 500px;
+	margin-left: 500px;
+	text-align: justify;
+}
+
+.header {
+	text-align: center;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: Hershey;
+  src: url("https://cdn.glitch.global/97390a97-e184-4a13-8bb4-7666ff64c4f7/Hershey-Noailles-Times-Triplex-Regular.ttf?v=1672402450985")
+    format("truetype");
+}
+@font-face {
+  font-family: NotJam;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/97390a97-e184-4a13-8bb4-7666ff64c4f7/NotJamOldStyle11.ttf?v=1687699159054")
+    format("truetype");
+}
+
+a {
+	color: #EE2E31;
+}
+a:hover {
+  color: #FE64A3;
+}
+
+mark {
+	background-color: #C7CDE6;
+}
